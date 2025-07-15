@@ -48,6 +48,7 @@ function Input() {
         type="text"
         value={search}
         onChange={(e) => setSearch(e.target.value)}
+        placeholder={match}
         style={{
           ...sharedStyle,
           color: "transparent",
